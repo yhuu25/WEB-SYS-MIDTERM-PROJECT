@@ -1,0 +1,16 @@
+vendor/
+.env
+phpunit.xml
+.phpunit.cache/
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+writable/debugbar/*
+!writable/**/.gitkeep
+public/uploads/products/*
+public/uploads/avatars/*
+!public/uploads/**/.gitkeep
+.idea/
+.vscode/
+.DS_Store
